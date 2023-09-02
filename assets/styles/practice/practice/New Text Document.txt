@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+      <!-- swiper link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+  <style>
+    /* ///////////////////////////////////////////////////////////////
+                        whats new section
+///////////////////////////////////////////////////////////////// */
+
+    .whatsNew-container {
+      text-align: center;
+    }
+
+    .whatsNew-content {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .swiper {
+      width: 90%;
+    }
+
+    .swiper-header {
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .member-transcript h3,
+    .member-dashboard h3 {
+      font-size: 22px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    .member-transcript p,
+    .member-dashboard p {
+      font-size: 18px;
+      text-transform: capitalize;
+    }
+
+    .member-transcript {
+      text-align: start;
+      margin-bottom: 40px;
+    }
+
+    .member-transcript h3 {
+      color: #00aeef;
+    }
+
+    .member-transcript p {
+      color:#7a7e86;
+    }
+
+    .member-dashboard {
+      text-align: end;
+      margin-bottom: 40px;
+    }
+
+    .member-dashboard h3 {
+      color: #bfcd31;
+    }
+
+    .member-dashboard p {
+      color: #7a7e86;
+    }
+
+    .members-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .left-arrow,
+    .right-arrow {
+      height: 50px;
+      width: 50px;
+      /* width: 5%; */
+    }
+
+    .left-arrow img,
+    .right-arrow img {
+      height: 100%;
+    }
+  </style>
+  <body>
+    <div class="whatsNew container" id="whatsNew">
+      <div class="whatsNew-container">
+        <h2 class="heading">Whats New?</h2>
+        <div class="whatsNew-content">
+          <div class="left-arrow">
+            <img src="left-arrow.png" alt="" />
+          </div>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="swiper-content">
+                  <div class="swiper-header">
+                    <div class="member-transcript">
+                      <h3>SCTE•ISBE members transcript</h3>
+                      <p>
+                        Get Instant access to your coursework and
+                        certifications.
+                      </p>
+                    </div>
+
+                    <div class="member-dashboard">
+                      <h3>SCTE•ISBE members Dashboard</h3>
+                      <p>Measure and optimize your career path performance.</p>
+                    </div>
+                  </div>
+
+                  <div class="members-img">
+                    <img src="slide_1.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-content">
+                  <div class="swiper-header">
+                    <div class="member-transcript">
+                      <h3>SCTE•ISBE members transcript</h3>
+                      <p>
+                        Get Instant access to your coursework and
+                        certifications.
+                      </p>
+                    </div>
+
+                    <div class="member-dashboard">
+                      <h3>SCTE•ISBE members Dashboard</h3>
+                      <p>Measure and optimize your career path performance.</p>
+                    </div>
+                  </div>
+
+                  <div class="members-img">
+                    <img src="slide_1.png" alt="" />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="swiper-content">
+                  <div class="swiper-header">
+                    <div class="member-transcript">
+                      <h3>SCTE•ISBE members transcript</h3>
+                      <p>
+                        Get Instant access to your coursework and
+                        certifications.
+                      </p>
+                    </div>
+
+                    <div class="member-dashboard">
+                      <h3>SCTE•ISBE members Dashboard</h3>
+                      <p>Measure and optimize your career path performance.</p>
+                    </div>
+                  </div>
+
+                  <div class="members-img">
+                    <img src="slide_1.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-arrow">
+            <img src="right-arrow.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".swiper", {
+        slidesPerView: "auto",
+        spaceBetween: 100,
+        centeredSlides: true,
+        loop: true,
+        navigation: {
+          nextEl: ".right-arrow",
+          prevEl: ".left-arrow",
+        },
+      });
+    </script>
+  </body>
+</html>

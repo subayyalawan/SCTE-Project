@@ -1,0 +1,369 @@
+@media (max-width: 1199px) and (min-width: 1024px) {
+  /* //////////////////////////////////////////////////////////
+                        universal classes
+///////////////////////////////////////////////////////////// */
+  .container {
+    width: 90%;
+  }
+
+  .Btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .heading {
+    font-size: 40px;
+    letter-spacing: 1.8px;
+    margin-bottom: 28px;
+  }
+
+  .paragraph {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 30px;
+  }
+
+  .down-arrow {
+    height: 55px;
+    width: 55px;
+  }
+
+  /* //////////////////////////////////////////////////////////
+                        navigation section
+///////////////////////////////////////////////////////////// */
+
+  .hero-container {
+    height: 650px;
+  }
+  .header-container.desktop {
+    padding: 12px 20px;
+  }
+
+  .logo {
+    width: 11%;
+  }
+
+  .nav-container {
+    width: 99%;
+  }
+
+  .navigation {
+    width: 66%;
+  }
+
+  .nav-container .desktop-nav {
+    font-size: 12px;
+  }
+
+  .nav-container .desktop-nav li {
+    width: 100px;
+  }
+
+  .nav-btn-container {
+    width: 18%;
+  }
+
+  .nav-btn .join-us a,
+  .nav-btn .log-in a {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+
+  .search-shop-container {
+    width: 5%;
+  }
+
+  /* ///////////////////////////////////////////////////////////////
+                        hero section
+///////////////////////////////////////////////////////////////// */
+
+  .hero-section-container {
+    margin-top: 200px;
+  }
+
+  .hero-section-container h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+
+  .hero-section-container input {
+    padding: 14px;
+    width: 65%;
+    font-size: 22px;
+    margin-bottom: 40px;
+  }
+
+  .hero-section-container p {
+    font-size: 18px;
+    margin-bottom: 12%;
+  }
+
+  /* ///////////////////////////////////////////////////////////////
+                        InfoBar section
+///////////////////////////////////////////////////////////////// */
+
+  .infoBar {
+    width: 85%;
+    padding: 60px 0;
+  }
+
+  .infoBar h3 {
+    font-size: 50px;
+  }
+
+  .infoBar h3 span {
+    font-size: 16px;
+  }
+
+  /* ///////////////////////////////////////////////////////////////
+                        members section
+///////////////////////////////////////////////////////////////// */
+
+  .membersBar-container.mobile {
+    display: none;
+  }
+
+  .membersBar-container.mobile {
+    width: 86%;
+    padding: 18px;
+  }
+
+  .membersBar-container.desktop h4 {
+    font-size: 14px;
+  }
+
+  /* ///////////////////////////////////////////////////////////////
+                        map section
+///////////////////////////////////////////////////////////////// */
+
+  .map-content {
+    width: 70%;
+  }
+
+  .map-container {
+    margin-top: 70px;
+    margin-bottom: 40px;
+  }
+
+  .mapBtn-container {
+    height: 550px;
+    width: 100%;
+  }
+
+  .mapBtn-content {
+    width: 100%;
+  flex-wrap: wrap;
+
+  }
+
+  /* ///////////////////////////////////////////////////////////////
+                        whats new section
+///////////////////////////////////////////////////////////////// */
+
+  .member-transcript h3,
+  .member-dashboard h3 {
+    font-size: 16px;
+  }
+
+  .member-transcript p,
+  .member-dashboard p {
+    font-size: 14px;
+  }
+
+  .member-transcript,
+  .member-dashboard {
+    margin-bottom: 20px;
+  }
+
+  /* ///////////////////////////////////////////////////////////////
+                        connect section
+///////////////////////////////////////////////////////////////// */
+
+  .connect-content {
+    width: 80%;
+  }
+
+  .connect-content .heading {
+    font-size: 36px;
+  }
+
+  .connect-content .paragraph {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+
+  .connect-form input {
+    padding: 20px 25px;
+    width: 30.1%;
+    font-size: 18px;
+  }
+
+  .connect-form textarea {
+    padding: 20px 25px;
+    width: 90%;
+    font-size: 18px;
+  }
+
+  /* ///////////////////////////////////////////////////////////////
+                        features section
+///////////////////////////////////////////////////////////////// */
+
+  .feature .feature-content {
+    margin: 0 auto;
+    width: 80%;
+    min-height: 480px;
+  }
+
+  .standard-img,
+  .education-img,
+  .cert-img {
+    min-height: 480px;
+  }
+
+  .feature h3 {
+    font-size: 24px;
+    margin-bottom: 9px;
+  }
+
+  .feature p {
+    font-size: 14px;
+    margin-bottom: 35px;
+  }
+
+  .feature .details {
+    margin-bottom: 50px;
+  }
+
+  .features-container .feature:nth-child(odd) .triangle {
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-top: 20px solid #f9f9f9;
+  }
+
+  .features-container .feature:nth-child(even) .triangle {
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 20px solid #f9f9f9;
+  }
+
+  /* ///////////////////////////////////////////////////////////////
+                        member spotlight section
+///////////////////////////////////////////////////////////////// */
+
+  .member-spotlight-head {
+    width: 75%;
+
+    margin: 60px auto;
+  }
+
+  .spotlight {
+    width: 20%;
+    /* width: 220px; */
+  }
+
+  .spotlight-content {
+    /* width: 100%; */
+    margin: 25px auto;
+  }
+
+  .spotlight-img {
+    width: 100%;
+    /* width: 220px; */
+    /* height: 220px; */
+  }
+
+  .spotlight h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .spotlight h4 {
+    font-size: 15px;
+    margin-bottom: 24px;
+  }
+
+  .spotlight p {
+    font-size: 15px;
+  }
+
+  /* ///////////////////////////////////////////////////////////////
+                        get started section
+///////////////////////////////////////////////////////////////// */
+
+  .get-started-content {
+    padding-top: 55px;
+    padding-bottom: 55px;
+  }
+
+  .get-started-content h3 {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .get-started-content p {
+    margin-bottom: 22px;
+  }
+
+  .quicklinks-details ul li {
+    font-size: 15px;
+    padding: 3px 0;
+  }
+
+  /* ///////////////////////////////////////////////////////////////
+                        Question section
+///////////////////////////////////////////////////////////////// */
+
+  .question-content {
+    padding: 40px 0;
+  }
+
+  .question-content h3 {
+    font-size: 30px;
+    line-height: 45px;
+    letter-spacing: 1px;
+  }
+
+  .question-content a {
+    margin-right: 40px;
+  }
+
+  /* ///////////////////////////////////////////////////////////////
+                        footer section
+///////////////////////////////////////////////////////////////// */
+
+  .footer {
+    padding: 100px 0;
+  }
+
+  .social-icons i {
+    font-size: 24px;
+    padding: 0 5px;
+  }
+
+  .contact-details p {
+    font-size: 11px;
+    line-height: 24px;
+    letter-spacing: 0.8px;
+  }
+
+  .footer-search i {
+    font-size: 22px;
+  }
+
+  .footer-search input {
+    margin-left: 2%;
+    font-size: 12px;
+    padding: 7px 10px;
+  }
+
+  .address {
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 1.1px;
+    margin-top: 40px;
+  }
+
+  .address span {
+    margin-left: 30px;
+  }
+}

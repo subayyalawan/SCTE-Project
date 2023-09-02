@@ -1,0 +1,349 @@
+@media (max-width: 1400px) and (min-width: 1200px) {
+  /* //////////////////////////////////////////////////////////
+                        universal classes
+///////////////////////////////////////////////////////////// */
+
+  .container {
+    width: 87%;
+  }
+
+  .Btn {
+    padding: 15px 27px;
+    font-size: 18px;
+  }
+
+  .heading {
+    font-size: 50px;
+    letter-spacing: 2.1px;
+    margin-bottom: 33px;
+  }
+
+  .paragraph {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 45px;
+  }
+
+  /* //////////////////////////////////////////////////////////
+                        navigation section
+///////////////////////////////////////////////////////////// */
+
+  .hero-container {
+    height: 850px;
+  }
+  .header-container.desktop {
+    padding: 15px 35px;
+  }
+
+  .logo {
+    width: 12%;
+  }
+
+  .naigation {
+    width: 60%;
+  }
+
+  .nav-container .desktop-nav {
+    font-size: 14px;
+  }
+
+  .nav-container .desktop-nav li {
+    width: 110px;
+  }
+
+  .nav-btn .join-us a,
+  .nav-btn .log-in a {
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+
+  /* ///////////////////////////////////////////////////////////////
+                        hero section
+///////////////////////////////////////////////////////////////// */
+
+  .hero-section-container {
+    margin-top: 240px;
+  }
+
+  .hero-section-container h1 {
+    font-size: 50px;
+    margin-bottom: 40px;
+  }
+
+  .hero-section-container input {
+    padding: 20px;
+    width: 65%;
+    font-size: 26px;
+    margin-bottom: 55px;
+  }
+
+  .hero-section-container p {
+    font-size: 22px;
+    /* margin-bottom: 13%; */
+  }
+
+  /* ///////////////////////////////////////////////////////////////
+                        InfoBar section
+///////////////////////////////////////////////////////////////// */
+
+  .infoBar {
+    width: 80%;
+    padding: 80px 0;
+  }
+
+  .infoBar h3 {
+    font-size: 70px;
+  }
+
+  .infoBar h3 span {
+    font-size: 18px;
+  }
+
+  /* ///////////////////////////////////////////////////////////////
+                        members section
+///////////////////////////////////////////////////////////////// */
+
+  .membersBar-container.mobile {
+    display: none;
+  }
+
+
+  .membersBar-container.desktop {
+    width: 84%;
+    padding: 22px;
+  }
+
+  .membersBar-container.desktop h4 {
+    font-size: 15px;
+  }
+
+  /* ///////////////////////////////////////////////////////////////
+                        map section
+///////////////////////////////////////////////////////////////// */
+
+  .map-container {
+    margin-top: 90px;
+    margin-bottom: 50px;
+  }
+
+  .mapBtn-container {
+    height: 650px;
+    width: 100%;
+  }
+
+  .mapBtn-content {
+    width: 100%;
+  flex-wrap: wrap;
+
+  }
+
+  /* ///////////////////////////////////////////////////////////////
+                        whats new section
+///////////////////////////////////////////////////////////////// */
+
+  .member-transcript h3,
+  .member-dashboard h3 {
+    font-size: 18px;
+  }
+
+  .member-transcript p,
+  .member-dashboard p {
+    font-size: 16px;
+  }
+
+  .member-transcript,
+  .member-dashboard {
+    margin-bottom: 30px;
+  }
+
+  /* ///////////////////////////////////////////////////////////////
+                        connect section
+///////////////////////////////////////////////////////////////// */
+
+  .connect-content {
+    width: 75%;
+  }
+
+  .connect-content .heading {
+    font-size: 40px;
+  }
+
+  .connect-content .paragraph {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+
+  .connect-form input {
+    padding: 22px 28px;
+
+    width: 30.1%;
+    font-size: 20px;
+  }
+
+  .connect-form textarea {
+    padding: 22px 28px;
+
+    width: 90%;
+    font-size: 20px;
+  }
+
+  /* ///////////////////////////////////////////////////////////////
+                        features section
+///////////////////////////////////////////////////////////////// */
+
+  .feature .feature-content {
+    margin: 0 auto;
+    width: 75%;
+    min-height: 520px;
+  }
+
+  .standard-img,
+  .education-img,
+  .cert-img {
+    min-height: 520px;
+  }
+
+  .feature h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
+  .feature p {
+    font-size: 14px;
+    margin-bottom: 40px;
+  }
+
+  .feature-details {
+    margin-bottom: 60px;
+  }
+
+  .features-container .feature:nth-child(odd) .triangle {
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-top: 30px solid #f9f9f9;
+  }
+
+  .features-container .feature:nth-child(even) .triangle{
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 30px solid #f9f9f9;
+  }
+
+  /* ///////////////////////////////////////////////////////////////
+                        memberspot light section
+///////////////////////////////////////////////////////////////// */
+
+  .member-spotlight-head {
+    margin: 80px auto;
+  }
+
+  .spotlight {
+    width: 19%;
+    /* width: 260px; */
+  }
+
+  .spotlight-content {
+    margin: 30px auto;
+  }
+
+  .spotlight-img {
+    width: 100%;
+    /* width: 260px; */
+    /* height: 260px; */
+  }
+
+  .spotlight h3 {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+  .spotlight h4 {
+    font-size: 16px;
+    margin-bottom: 29px;
+  }
+
+  .spotlight p {
+    font-size: 14px;
+  }
+
+  /* ///////////////////////////////////////////////////////////////
+                        get started section
+///////////////////////////////////////////////////////////////// */
+
+  .get-started-content {
+    padding-top: 80px;
+    padding-bottom: 70px;
+  }
+
+  .get-started-content h3 {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  .get-started-content p {
+    margin-bottom: 28px;
+  }
+
+  .quicklinks-details ul li {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+
+  /* ///////////////////////////////////////////////////////////////
+                        Question section
+///////////////////////////////////////////////////////////////// */
+
+  .question-content {
+    padding: 50px 0;
+  }
+
+  .question-content h3 {
+    font-size: 36px;
+    line-height: 55px;
+    letter-spacing: 1px;
+  }
+
+  .question-content a {
+    margin-right: 30px;
+  }
+
+  /* /////////////////////////////////////////////////////////////
+                        footer section
+///////////////////////////////////////////////////////////////// */
+
+  .footer {
+    padding: 130px 0;
+  }
+
+  .social-icons i {
+    font-size: 26px;
+    padding: 0 5px;
+  }
+
+  .contact-details p {
+    font-size: 12px;
+    line-height: 28px;
+    letter-spacing: 0.8px;
+  }
+
+  .footer-search i {
+    font-size: 26px;
+  }
+
+  .footer-search input {
+    margin-left: 5%;
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .address {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 1.6px;
+    margin-top: 60px;
+  }
+
+  .address span {
+    margin-left: 40px;
+  }
+}
